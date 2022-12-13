@@ -1,13 +1,18 @@
 #include <stdio.h>
+
+#include <unistd.h>
+
 /**
- * main - a C program that prints that prints a file followed by a new line
+ * main - Entry
  *
- * Return: 1
+ *Return: 1 (success)
  */
 
 int main(void)
+
 {
-	char err[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-199\n";
-	write(2,  err, 59);
-	return (1);
+
+		fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+
+		return (1);
 }
