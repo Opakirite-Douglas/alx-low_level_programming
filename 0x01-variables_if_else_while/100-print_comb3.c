@@ -10,20 +10,21 @@
 
 int main(void)
 	{
-		int num1, num2;
+		int digit1, digit2;
 
-		num1 = 01;
+		for (digit1 = 0; digit1 < 10; digit1++)
+		{
 
-		while (num1 < 89)
+		for (digit2 = 0; digit2 < 10; digit2++)
 	{
-		num2 = 01;
-		while (num2 < 89)
-		putchar(num1);
-		putchar(num2);
-		num2++;
+		putchar((digit1 % 10) + '0');
+		putchar((digit2 % 10) + '0');
+		if (digit1 == 9 && digit2 == 9)
+			continue;
+
 		putchar(',');
 		putchar(' ');
-		num1++;
+	}
 	}
 
 	putchar('\n');
