@@ -6,7 +6,7 @@
  * @n: function copies
  *  @src: bytes from memory area
  *  @dest: to memory area
- * 
+ *
  * Return: a pointer to @dest
  */
 
@@ -19,6 +19,5 @@ while (i < n)
 dest[i] = src[i];
 i++;
 }
-
 return (dest);
 }
