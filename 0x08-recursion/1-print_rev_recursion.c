@@ -1,17 +1,15 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - prints number of arguments passed into it.
- * @argc: argument count
- * @argv: arguments
- *
- * Return: 0
- */
+ * _print_rev_recursion - print a string in reverse
+ * @s: string
+ * Return 0;
+*/
 
-int main(int argc, char **argv)
+void _print_rev_recursion(char *s)
 {
-	(void)argv;
-
-	printf("%d\n", argc - 1);
-	return (0);
+	if (*s)
+	{
+		_print_rev_recursion(s + 1);
+		_putchar(*s);
+	}
 }

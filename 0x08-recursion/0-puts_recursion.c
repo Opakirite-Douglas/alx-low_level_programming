@@ -1,17 +1,19 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - prints name,followed by a new line.
- * @argc: argument count
- * @argv: arguments
- *
- * Return: 0
+ * _puts_recursion - print a string
+ * @s:string
+ * Return:void
  */
-
-int main(int argc, char **argv)
+void _puts_recursion(char *s)
 {
-	(void)argc;
+if (*s)
+{
+	_putchar(*s);
+	_puts_recursion(s + 1);
+}
+else
+{
+	_putchar('\n');
+}
 
-	printf("%s\n", argv[0]);
-	return (0);
 }
