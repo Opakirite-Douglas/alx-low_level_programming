@@ -5,7 +5,6 @@
 
 /**
  * main - check the code for at test files.
- *
  * Return: Always 0.
  */
 int main(void)
