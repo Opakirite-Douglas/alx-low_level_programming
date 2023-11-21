@@ -1,7 +1,3 @@
-/*
- * File: 102-free_listint_safe.c
- * Auth: abayomi robert onawole
- */
 #include "lists.h"
 
 /**
@@ -10,6 +6,7 @@
  *
  * Return: number of elements in the freed list 
  */
+
 size_t free_listint_safe(listint_t **h)
 {
 	size_t leen = 0;
