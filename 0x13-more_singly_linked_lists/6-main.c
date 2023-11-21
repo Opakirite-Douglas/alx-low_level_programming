@@ -5,9 +5,9 @@
 
 /**
  * main - check the code at the test files.
- *
  * Return: Always 0.
  */
+
 int main(void)
 {
 	listint_t *head;
