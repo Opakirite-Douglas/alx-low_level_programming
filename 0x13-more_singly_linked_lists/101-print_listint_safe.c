@@ -1,8 +1,3 @@
-/*
- * File: 101-print_listint_safe.c
- * Auth: Onawole abayomi robert
- */
-
 #include "lists.h"
 #include <stdio.h>
 
