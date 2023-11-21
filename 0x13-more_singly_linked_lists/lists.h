@@ -3,11 +3,10 @@
 
 /*
  * File: lists.h
- * Auth: Abayomi Robert Onawole
  * Desc: Header file containing prototypes and definitions for all
  * functions and types written in the 0x12-more_singly_linked_lists directory.
- *
  */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -19,6 +18,7 @@
  * Description: singly linked list node structure
  * for Holberton project
  */
+
 typedef struct listint_s
 {
 	int n;
