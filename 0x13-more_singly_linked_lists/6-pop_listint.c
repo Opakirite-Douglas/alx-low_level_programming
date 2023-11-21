@@ -1,8 +1,3 @@
-/*
- * File: 6-pop_listint.c
- * Auth: Onawole robert
- */
-
 #include "lists.h"
 
 /**
@@ -12,6 +7,7 @@
  * Return: the data inside the elements that was deleted,
  * or 0 if the list is empty
  */
+
 int pop_listint(listint_t **head)
 {
 	listint_t *temp;
